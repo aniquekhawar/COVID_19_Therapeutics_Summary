@@ -3,7 +3,7 @@ name: fetch-covid19-therapeutics-table
 on:
   workflow_dispatch:
   schedule:
-    - cron: '00 12 * * 1' # runs at 8 AM Eastern Every Monday
+    - cron: '00 12 * * *' # runs at 8 AM Eastern Every Day
 
 jobs:
   build:
