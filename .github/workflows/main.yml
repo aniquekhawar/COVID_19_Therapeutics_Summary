@@ -1,4 +1,4 @@
-name: fetch-jynneos-table
+name: fetch-covid19-therapeutics-table
 
 on:
   workflow_dispatch:
